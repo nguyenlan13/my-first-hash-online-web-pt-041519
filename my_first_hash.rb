@@ -1,8 +1,6 @@
 def my_hash
-  # use the literal constructor to set the variable, my_hash, equal to a hash with key/value pairs of your choice.
   your_hash = {"breakfast" => "eggs"}
 end
-
 
 def shipping_manifest
   the_manifest = {"whale bone corsets" => 5, "porcelain vases" => 2, "oil paintings" => 3}
@@ -14,10 +12,9 @@ def retrieval
                   "porcelain vases" => 2, 
                   "oil paintings" => 3
                  }
-end
   shipping_manifest ["oil paintings"]
 end
-end
+
 
 def adding
   shipping_manifest = {
@@ -27,7 +24,7 @@ def adding
                  }
   shipping_manifest ["muskets"] = 2
   shipping_manifest ["gun powder"] = 4
-end
+
   return shipping_manifest
 end
-end
+
